@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import RenderList from './elements/XRenderList';
-import FilterList from './higher-order/XhocFilterList';
+import RenderList from './elements/RenderList';
+import FilterList from './higher-order/FilterList';
 
 const disneyFemaleLeads = [
     {name: 'Snow White', savedByPrince: true, isRoyal: true},
